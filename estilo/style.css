@@ -31,14 +31,12 @@ section > img{
 }
 
 table{
-   width: 800px;
-   height: 400px;
    border-collapse: collapse;
 }
 
 td{
    border: 1px solid black;
-   padding: 8px;
+   padding: 2px;
    text-align: center;
    vertical-align: center;
 }
@@ -141,4 +139,9 @@ footer a:hover{
 
 .controladores{
    background-image: url();
+}
+
+#tabela{
+   max-width: max-content;
+   max-height: 400px;
 }
